@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Shinobi\Models;
+namespace Shinobi\Models;
 
-use Caffeinated\Shinobi\Concerns\RefreshesPermissionCache;
-use Caffeinated\Shinobi\Contracts\Permission as PermissionContract;
+use Shinobi\Concerns\RefreshesPermissionCache;
+use Shinobi\Contracts\Permission as PermissionContract;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Shinobi;
+namespace Shinobi;
 
 use Exception;
 use Illuminate\Contracts\Auth\Access\Authorizable;
@@ -39,7 +39,7 @@ class ShinobiServiceProvider extends ServiceProvider
         $this->app->singleton('shinobi', function ($app) {
             $auth = $app->make('Illuminate\Contracts\Auth\Guard');
 
-            return new \Caffeinated\Shinobi\Shinobi($auth);
+            return new \Shinobi\Shinobi($auth);
         });
     }
 

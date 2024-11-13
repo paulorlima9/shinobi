@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tests;
+namespace Shinobi\Tests;
 
-use Caffeinated\Shinobi\Facades\Shinobi;
-use Caffeinated\Shinobi\ShinobiServiceProvider;
+use Shinobi\Facades\Shinobi;
+use Shinobi\ShinobiServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;

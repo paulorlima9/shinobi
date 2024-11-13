@@ -1,6 +1,6 @@
 <?php
 
-use Caffeinated\Shinobi\Models\Permission;
+use Shinobi\Models\Permission;
 use Illuminate\Support\Str;
 
 $factory->define(Permission::class, function (Faker\Generator $faker) {

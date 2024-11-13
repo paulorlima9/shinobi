@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tests;
+namespace Shinobi\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;

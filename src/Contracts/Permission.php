@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Shinobi\Contracts;
+namespace Shinobi\Contracts;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 

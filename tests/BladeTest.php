@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tests;
+namespace Shinobi\Tests;
 
-use Caffeinated\Shinobi\Models\Permission;
-use Caffeinated\Shinobi\Models\Role;
+use Shinobi\Models\Permission;
+use Shinobi\Models\Role;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class BladeTest extends TestCase

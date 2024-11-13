@@ -1,11 +1,11 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tests;
+namespace Shinobi\Tests;
 
-use Caffeinated\Shinobi\Middleware\UserHasAllRoles;
-use Caffeinated\Shinobi\Middleware\UserHasAnyRole;
-use Caffeinated\Shinobi\Middleware\UserHasRole;
-use Caffeinated\Shinobi\Models\Role;
+use Shinobi\Middleware\UserHasAllRoles;
+use Shinobi\Middleware\UserHasAnyRole;
+use Shinobi\Middleware\UserHasRole;
+use Shinobi\Models\Role;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 

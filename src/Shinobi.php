@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Shinobi;
+namespace Shinobi;
 
-use Caffeinated\Shinobi\Tactics\AssignRoleTo;
-use Caffeinated\Shinobi\Tactics\GivePermissionTo;
-use Caffeinated\Shinobi\Tactics\RevokePermissionFrom;
+use Shinobi\Tactics\AssignRoleTo;
+use Shinobi\Tactics\GivePermissionTo;
+use Shinobi\Tactics\RevokePermissionFrom;
 
 class Shinobi
 {
@@ -32,7 +32,7 @@ class Shinobi
      * Assign roles to a user.
      *
      * @param  string|array  $roles
-     * @return \Caffeinated\Shinobi\Tactic\AssignRoleTo
+     * @return \Shinobi\Tactic\AssignRoleTo
      */
     public function assign($roles): AssignRoleTo
     {
@@ -43,7 +43,7 @@ class Shinobi
      * Give permissions to a user or role
      *
      * @param  string|array  $permissions
-     * @return \Caffeinated\Shinobi\Tactic\GivePermissionTo
+     * @return \Shinobi\Tactic\GivePermissionTo
      */
     public function give($permissions): GivePermissionTo
     {
@@ -54,7 +54,7 @@ class Shinobi
      * Revoke permissions from a user or role
      *
      * @param  string|array  $permissions
-     * @return \Caffeinated\Shinobi\Tactic\RevokePermissionFrom
+     * @return \Shinobi\Tactic\RevokePermissionFrom
      */
     public function revoke($permissions): RevokePermissionFrom
     {

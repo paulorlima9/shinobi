@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Shinobi\Concerns;
+namespace Shinobi\Concerns;
 
-use Caffeinated\Shinobi\Contracts\Role;
+use Shinobi\Contracts\Role;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

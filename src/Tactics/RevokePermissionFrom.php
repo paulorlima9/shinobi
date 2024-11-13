@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tactics;
+namespace Shinobi\Tactics;
 
-use Caffeinated\Shinobi\Facades\Shinobi;
+use Shinobi\Facades\Shinobi;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 

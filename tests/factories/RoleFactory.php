@@ -1,6 +1,6 @@
 <?php
 
-use Caffeinated\Shinobi\Models\Role;
+use Shinobi\Models\Role;
 use Illuminate\Support\Str;
 
 $factory->define(Role::class, function (Faker\Generator $faker) {

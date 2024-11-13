@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Shinobi\Concerns;
+namespace Shinobi\Concerns;
 
-use Caffeinated\Shinobi\Contracts\Permission;
-use Caffeinated\Shinobi\Exceptions\PermissionNotFoundException;
+use Shinobi\Contracts\Permission;
+use Shinobi\Exceptions\PermissionNotFoundException;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Arr;
 
@@ -132,7 +132,7 @@ trait HasPermissions
     /**
      * Checks if the user has the given permission assigned.
      *
-     * @param  \Caffeinated\Shinobi\Models\Permission  $permission
+     * @param  \Shinobi\Models\Permission  $permission
      */
     protected function hasPermission($permission): bool
     {
@@ -148,7 +148,7 @@ trait HasPermissions
     /**
      * Get the model instance responsible for permissions.
      *
-     * @return \Caffeinated\Shinobi\Contracts\Permission|\Illuminate\Database\Eloquent\Collection
+     * @return \Shinobi\Contracts\Permission|\Illuminate\Database\Eloquent\Collection
      */
     protected function getPermissionModel()
     {

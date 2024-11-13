@@ -49,8 +49,8 @@ return [
         | permissions to roles and users, and assigning roles to users.
         */
 
-        'role' => Caffeinated\Shinobi\Models\Role::class,
-        'permission' => Caffeinated\Shinobi\Models\Permission::class,
+        'role' => Shinobi\Models\Role::class,
+        'permission' => Shinobi\Models\Permission::class,
 
     ],
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tests;
+namespace Shinobi\Tests;
 
-use Caffeinated\Shinobi\Concerns\HasRolesAndPermissions;
+use Shinobi\Concerns\HasRolesAndPermissions;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;

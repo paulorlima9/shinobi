@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Shinobi\Models;
+namespace Shinobi\Models;
 
-use Caffeinated\Shinobi\Concerns\HasPermissions;
-use Caffeinated\Shinobi\Contracts\Role as RoleContract;
+use Shinobi\Concerns\HasPermissions;
+use Shinobi\Contracts\Role as RoleContract;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 

@@ -26,7 +26,7 @@ composer require caffeinated/shinobi
 To publish the config file, run the following:
 
 ```
-php artisan vendor:publish --provider="Caffeinated\Shinobi\ShinobiServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Shinobi\ShinobiServiceProvider" --tag="config"
 ```
 
 ## Changelog

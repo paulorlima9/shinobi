@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Shinobi\Middleware;
+namespace Shinobi\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
